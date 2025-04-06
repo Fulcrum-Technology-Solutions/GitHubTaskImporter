@@ -1,0 +1,33 @@
+title,description,assignee,labels,type,projects,milestone
+Project setup and initial planning,Define project roles establish communication channels and create detailed work breakdown structure. Set up GitHub project board and initial repository.,,enhancement,task,SNARF Development,Project Plan Approval
+Requirements prioritization and MVP definition,Review all requirements prioritize them into must-have vs. nice-to-have categories and define clear MVP scope for the project.,,enhancement,task,SNARF Development,Project Plan Approval
+Database schema design,Design PostgreSQL database schema for all core objects (Blueprints Detections Runbooks). Include entity relationships and metadata structure.,,enhancement,task,SNARF Development,Requirements and Design Sign-off
+UI/UX wireframes for core components,Create wireframes for dashboard blueprint management detection management and library pages.,,enhancement,task,SNARF Development,Requirements and Design Sign-off
+GitHub repository structure design,Define GitHub repository structure for storing YAML files including organization of different content types and metadata.,,enhancement,task,SNARF Development,Requirements and Design Sign-off
+UIBakery development environment setup,Set up UIBakery development environment configure project structure and establish development workflows.,,enhancement,task,SNARF Development,Core Architecture Completion
+User authentication implementation,Implement user authentication and role-based access control using UIBakery's built-in functionality.,,enhancement,task,SNARF Development,Core Architecture Completion
+Core data models implementation,Develop core data models for all YAML object types in the UIBakery application.,,enhancement,task,SNARF Development,Core Architecture Completion
+GitHub API integration setup,Set up GitHub API connection and authentication allowing basic repository access.,,enhancement,task,SNARF Development,Core Architecture Completion
+Dashboard implementation with metrics,Implement the main dashboard with content counts charts and quick links to main library pages.,,enhancement,task,SNARF Development,Core Architecture Completion
+Blueprint management module,Implement blueprint creation editing and management functionality according to blueprint_sample.yml template.,,enhancement,task,SNARF Development,Content Management Features Completion
+Detection management module,Implement detection rule creation editing and management with multiple query format support.,,enhancement,task,SNARF Development,Content Management Features Completion
+Response runbook management module,Implement response runbook creation editing and management functionality.,,enhancement,task,SNARF Development,Content Management Features Completion
+Testing runbook management module,Implement testing runbook creation editing and management functionality.,,enhancement,task,SNARF Development,Content Management Features Completion
+YAML validation implementation,Develop basic YAML schema validation for content types with error handling and feedback.,,enhancement,task,SNARF Development,Content Management Features Completion
+Relationship management between objects,Implement functionality to manage relationships between blueprints detections and runbooks.,,enhancement,task,SNARF Development,Content Management Features Completion
+Library interface with filtering,Build library interfaces for viewing filtering and sorting content by type and attributes.,,enhancement,task,SNARF Development,Content Management Features Completion
+Basic GitHub synchronization,Implement one-way GitHub synchronization for storing YAML content and basic retrieval.,,enhancement,task,SNARF Development,Integration Features Completion
+Settings page implementation,Create settings page for system configuration including GitHub settings and variables.,,enhancement,task,SNARF Development,Integration Features Completion
+Basic import/export functionality,Implement essential export functionality for YAML files and basic import capability.,,enhancement,task,SNARF Development,Integration Features Completion
+Core test plan development,Create focused test plan for core functionality validation and test cases for critical paths.,,documentation,task,SNARF Development,Testing Completion
+Functional testing execution,Execute functional testing of core features and document results and issues.,,testing,task,SNARF Development,Testing Completion
+Bug fixes and regression testing,Fix identified issues and conduct regression testing to ensure stability.,,bug,task,SNARF Development,Testing Completion
+UIBakery production deployment,Configure UIBakery production environment and deploy application to production.,,infrastructure,task,SNARF Development,Production Deployment
+Essential user documentation,Create quick start guides and essential documentation for core system functionality.,,documentation,task,SNARF Development,Production Deployment
+Project handover and training,Conduct handover session with stakeholders and provide basic training for system usage.,,documentation,task,SNARF Development,Production Deployment
+Schema validation enhancements,Expand YAML schema validation to include comprehensive validation for all document types.,,enhancement,task,SNARF Development,Future Enhancements
+Advanced GitHub conflict resolution,Implement bidirectional GitHub synchronization with conflict detection and resolution.,,enhancement,task,SNARF Development,Future Enhancements
+AI integration for content generation,Integrate AI-assisted chatbot for content generation and query format conversion.,,enhancement,task,SNARF Development,Future Enhancements
+Bulk import capabilities,Implement advanced bulk import functionality for content via CSV and GitHub repositories.,,enhancement,task,SNARF Development,Future Enhancements
+Audit logging and dashboard,Build audit dashboard showing CRUD actions with filtering by user action type and date.,,enhancement,task,SNARF Development,Future Enhancements
+SOAR playbook management module,Implement SOAR playbook creation editing and management functionality.,,enhancement,task,SNARF Development,Future Enhancements
